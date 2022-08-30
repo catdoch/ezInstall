@@ -18,7 +18,7 @@ done
 while true; do
     read -p "Do you wanna install VSCode? " yn
     case $yn in
-        [Yy]* ) brew cask install visual-studio-code; break;;
+        [Yy]* ) brew install --cask visual-studio-code; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
@@ -27,7 +27,7 @@ done
 while true; do
     read -p "Do you wanna install Sublime text? " yn
     case $yn in
-        [Yy]* ) brew cask install sublime-text; break;;
+        [Yy]* ) brew install --cask sublime-text; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
@@ -36,7 +36,7 @@ done
 while true; do
     read -p "Do you wanna install Slack? " yn
     case $yn in
-        [Yy]* ) brew cask install slack; break;;
+        [Yy]* ) brew install --cask slack; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
@@ -45,7 +45,7 @@ done
 while true; do
     read -p "Do you wanna install Firefox? " yn
     case $yn in
-        [Yy]* ) brew cask install firefox; break;;
+        [Yy]* ) brew install --cask firefox; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
@@ -54,7 +54,7 @@ done
 while true; do
     read -p "Do you wanna install Spotify? " yn
     case $yn in
-        [Yy]* ) brew cask install spotify; break;;
+        [Yy]* ) brew install --cash spotify; break;;
         [Nn]* ) break;;
         * ) echo "Please answer yes or no.";;
     esac
